@@ -5,15 +5,13 @@ import * as Component from "./quartz/components"
 export const sharedPageComponents: SharedLayout = {
   head: Component.Head(),
   header: [
-    Component.MobileOnly(Component.Spacer()),
     Component.PageTitle(),
-    Component.Darkmode(),
-    Component.Search(),
+    Component.Search(),    
   ],
   afterBody: [],
   footer: Component.Footer({
     links: {
-      "Timeline of Zeitgeist": "https://timeline.zeitgeist.pm",
+      "Timeline by Zeitgeist": "https://zeitgeist.my",
     },
   }),
 }
