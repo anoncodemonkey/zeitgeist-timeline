@@ -1,5 +1,5 @@
 ---
-title: aaa
+title: project
 ---
 
 This is a blank Quartz installation.
